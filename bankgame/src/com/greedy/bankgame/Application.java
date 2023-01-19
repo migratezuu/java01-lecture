@@ -12,6 +12,7 @@ public class Application {
         boolean run =true;
         while(run) {
         	
+        	
         	System.out.println("====  ATM 서비스 ==");
         	System.out.println("1.카카오뱅크");
         	System.out.println("2.토스");
