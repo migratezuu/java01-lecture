@@ -6,7 +6,7 @@ public class Application {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int creditLevel =1;
+		int creditLevel = 10;
 		
 	    Scanner sc = new Scanner(System.in);	
         boolean run =true;
@@ -72,7 +72,11 @@ public class Application {
         	  balance = mainbank.deposit(depositAmount);
         	  System.out.println(depositAmount+"가 예금되었습니다");
         	  System.out.println("귀하의 잔액은"+balance+"입니다");
-        	  System.out.println("귀하의 신용등급은"+creditLevel+"입니다");                  
+        	  creditLevel = creditLevel -1;
+        	  
+
+        	  System.out.println("귀하의 신용등급은 "+creditLevel+" 급입니다");
+        	  
         	  break;
           case 4: 
         	  System.out.println("다시선택하세요"); break;
