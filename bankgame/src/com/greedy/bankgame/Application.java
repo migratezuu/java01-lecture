@@ -74,7 +74,6 @@ public class Application {
         	  System.out.println("귀하의 잔액은"+balance+"입니다");
         	  creditLevel = creditLevel -1;
         	  
-
         	  System.out.println("귀하의 신용등급은 "+creditLevel+" 급입니다");
         	  
         	  break;
