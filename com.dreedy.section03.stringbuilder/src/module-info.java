@@ -5,5 +5,5 @@
  * @author tjoeun
  *
  */
-module auction03 {
+module com.dreedy.section03.stringbuilder {
 }
