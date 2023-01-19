@@ -6,13 +6,10 @@ public class Application {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int creditLevel = 10;
-		
+		// int creditLevel = 10;
 	    Scanner sc = new Scanner(System.in);	
         boolean run =true;
         while(run) {
-        	
-        	
         	System.out.println("====  ATM 서비스 ==");
         	System.out.println("1.카카오뱅크");
         	System.out.println("2.토스");
@@ -46,6 +43,10 @@ public class Application {
           int selectMenu = scMenu.nextInt();
 	      MainBank mainbank = new Kbank();
 	      int balance;
+	      
+	      CreditDB creditdb= new CreditDB();
+	      
+	      int creditLevel = creditdb.getCreditLevel();
 	      
 	      
           switch(selectMenu) {
