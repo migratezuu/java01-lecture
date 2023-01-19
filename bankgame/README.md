@@ -1,6 +1,7 @@
 # 이름 - 은행게임
 
-![Alt text](bank.png)
+![Alt text](menu1.png)
+![Alt text](menu2.png)
 
 
 ## 기능개요 
