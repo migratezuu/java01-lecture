@@ -1,9 +1,0 @@
-/**
- * 
- */
-/**
- * @author tjoeun
- *
- */
-module auction {
-}
