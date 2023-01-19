@@ -3,7 +3,6 @@
 ![Alt text](menu1.png)
 ![Alt text](menu2.png)
 
-
 ## 기능개요 
 
 - 예금을 하면 신용등급이 올라감 
