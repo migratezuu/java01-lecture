@@ -5,5 +5,5 @@
  * @author tjoeun
  *
  */
-module auction {
+module petbnb {
 }
