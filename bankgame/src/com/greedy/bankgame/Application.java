@@ -39,6 +39,7 @@ public class Application {
           System.out.println("1.잔액조회");
           System.out.println("2.인출");
           System.out.println("3.예금");
+          System.out.println("4.종료");
           
   	      Scanner scMenu = new Scanner(System.in);	
           int selectMenu = scMenu.nextInt();
@@ -73,20 +74,18 @@ public class Application {
         	  System.out.println(depositAmount+"가 예금되었습니다");
         	  System.out.println("귀하의 잔액은"+balance+"입니다");
         	  creditLevel = creditLevel -1;
-        	  
-        	  System.out.println("귀하의 신용등급은 "+creditLevel+" 급입니다");
-        	  
+        	  System.out.println("귀하의 신용등급은 "+creditLevel+" 급입니다");        	  
         	  break;
           case 4: 
-        	  System.out.println("다시선택하세요"); break;
-          case 5: 
         	  run=false; break;
+          default:
+			  System.out.println("다시선택하세요.");
+			  break;	  
           }
-          ///
-            
       }
         
-      System.out.println("프로그램 종료");
+        
+      System.out.println("프로그램 종료 되었습니다.");
 	
 	}
 
