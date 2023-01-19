@@ -1,6 +1,6 @@
 # 이름 - 은행게임
 
-![Alt text](menu3.png)
+![Alt text](menu4.png)
 
 
 ## 기능개요 
@@ -12,9 +12,9 @@
 ## 다형성개요 
 
 - MainBank interface를 만들고 KakaoBank,Toss,Kbank가 implements  한다
-- MainBank에서 withDraw() ,deposit(), getBalance() 선언 
+- MainBank에서 withDraw() ,deposit(), getBalance() 선언하여 메소드구현을 강제한다. 
 - KakaoBank,Toss,Kbank 클래스가 withDraw() ,deposit (), getBalance() 를 @Override한다.
-- Application 클래스에서 각 은행의 메소드를 이용하여 각각의 은행에서 기능을 수행한다
+- Application 클래스에서 MainBank타입으로 각 은행의 인스턴스를 생성하고 은행의 메소드를 이용하여 각각의 은행에서 기능을 수행한다
 - 신용등급은 MainBank에서 관리한다.
 
 
