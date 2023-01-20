@@ -21,10 +21,12 @@
 ## 커뮤니케이션 다이어그램
 ### 1.잔액조회
 
-<img src="communication.png"  height="600px" title="px(픽셀) 크기 설정" alt="RubberDuck"></img><br/>
+<img src="communication_balance.png"  height="600px" title="px(픽셀) 크기 설정" alt="RubberDuck"></img><br/>
 
 ### 2.인출
+<img src="communication_widraw.png"  height="600px" title="px(픽셀) 크기 설정" alt="RubberDuck"></img><br/>
 ### 3.예금
+<img src="communication_deposit.png"  height="600px" title="px(픽셀) 크기 설정" alt="RubberDuck"></img><br/>
 
 
 ## 클래스다이어그램 
