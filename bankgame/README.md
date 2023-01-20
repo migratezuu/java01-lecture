@@ -22,7 +22,7 @@
 
 ## 커뮤니케이션 다이어그램
 
-![화면](cumunication.png)
+![화면](communication.png)
 ## 클래스다이어그램 
 
 ![Alt text](cd.png)
