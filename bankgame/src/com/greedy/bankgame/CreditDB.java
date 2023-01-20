@@ -8,6 +8,5 @@ public class CreditDB {
 		// TODO Auto-generated method stub
 		return creditlevel;
 	}
-	
 
 }

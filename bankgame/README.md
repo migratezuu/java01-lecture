@@ -1,9 +1,10 @@
 # 이름 - 은행게임
 
-![Alt text](menu4.png)
+![화면](menu4.png)
 
+<img src="menu4.png" width="450px" height="300px" title="px(픽셀) 크기 설정" alt="RubberDuck"></img><br/>
 
-## 기능개요 
+### 기능개요 
 
 - 예금을 하면 신용등급이 올라감 
 - 초기 등급은 10등급

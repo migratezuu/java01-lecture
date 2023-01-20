@@ -6,8 +6,8 @@ public class Application {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		// int creditLevel = 10;
-	    Scanner sc = new Scanner(System.in);	
+
+		Scanner sc = new Scanner(System.in);	
         boolean run =true;
         while(run) {
         	System.out.println("====  ATM 서비스 ==");
