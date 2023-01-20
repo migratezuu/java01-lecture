@@ -1,8 +1,6 @@
 ## 이름 - 은행게임
 
-![화면](menu4.png)
-
-<img src="menu4.png" width="450px" height="300px" title="px(픽셀) 크기 설정" alt="RubberDuck"></img><br/>
+<img src="menu4.png"  height="300px" title="px(픽셀) 크기 설정" alt="RubberDuck"></img><br/>
 
 ## 기능개요 
 
@@ -22,7 +20,9 @@
 
 ## 커뮤니케이션 다이어그램
 ### 1.잔액조회
-![화면](communication.png)
+
+<img src="communication.png"  height="400px" title="px(픽셀) 크기 설정" alt="RubberDuck"></img><br/>
+
 ### 2.인출
 ### 3.예금
 
