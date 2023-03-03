@@ -1,2 +1,0 @@
-INDEX VERSION 1.131+C:\Lecture\01_java\auction02\.metadata\.plugins\org.eclipse.jdt.core
-3593822972.index
